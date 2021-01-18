@@ -7,9 +7,13 @@ body{
 margin: 0px;
 color :white;
 font:  normal 15px  'Roboto', sans-serif;
-background: url('../pics/rose.jpg') fixed;
+background: url('../pics/rose.jpg') fixed ;
+}
+.kep{
+  background-attachment: fixed;
 }
 .box {
+  background-attachment: fixed;
     color: black;
     background-color:green;
    max-width: 400px;
@@ -24,7 +28,7 @@ background: url('../pics/rose.jpg') fixed;
   margin: 0;
 }
  .holes{
-     background-image: url('../pics/holes.jpg');
+     background: url('../pics/holes.jpg') ;
     
      height: 200px;
      background-position: center center;
