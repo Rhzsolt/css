@@ -1,14 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-html{
-    height: 100%;
+* {
+  box-sizing: border-box
 }
- body{
- 
- color :white;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+margin: 0px;
+color :white;
 font:  normal 15px  'Roboto', sans-serif;
- 
-background: url('../pics/bean.jpg') yellowgreen center center no-repeat fixed;
-
-
+background: url('../pics/rose.jpg') fixed;
+}
+.box {
+    color: black;
+    background-color:green;
+   max-width: 400px;
+  width: 80%;
+    padding: 0;
+    border-width: 20px ;
+    border-style:  solid;
+    border-color: black;
+    margin:  auto; 
 } 
+ .holes{
+     background-image: url('../pics/holes.jpg');
+    
+     height: 200px;
+     background-position: center center;
+   
+ }
+ .box-content{
+     padding: 40px;
+    
+ }
