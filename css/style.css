@@ -20,6 +20,9 @@ background: url('../pics/rose.jpg') fixed;
     border-color: black;
     margin:  auto; 
 } 
+.box-content h2{
+  margin: 0;
+}
  .holes{
      background-image: url('../pics/holes.jpg');
     
