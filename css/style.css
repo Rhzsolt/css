@@ -7,38 +7,22 @@ body{
 margin: 0px;
 color :white;
 font:  normal 15px  'Roboto', sans-serif;
-background: url('../pics/rose.jpg') fixed ;
+background: url('../pics/rose.jpg') fixed; }
+
+.box{
+color:black;
+background-color: white;
+max-width: 350px;
+width: 90%;
+margin: 40px auto;
 }
-.kep{
-  color:white;
-  font-size: 20px;
-  font-weight: bolder;
-  background: url('../pics/stars.png') fixed ;
-  height: 100px;
+.holes { background-image: url('../pics/holes.jpg');
+    height: 200px;
+    
 }
-.box {
-  background-attachment: fixed;
-    color: black;
-    background-color:green;
-   max-width: 400px;
-  width: 80%;
-    padding: 0;
-    border-width: 20px ;
-    border-style:  solid;
-    border-color: black;
-    margin:  auto; 
-} 
+.box-content{
+    padding: 20px ;
+}
 .box-content h2{
-  margin: 0;
+    margin: 0px;
 }
- .holes{
-     background: url('../pics/holes.jpg') ;
-    
-     height: 200px;
-     background-position: center center;
-   
- }
- .box-content{
-     padding: 40px;
-    
- }
