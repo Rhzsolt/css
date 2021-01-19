@@ -2,9 +2,12 @@
   box-sizing: border-box
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
-background: url('../pics/rose.jpg') fixed; 
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+background: url('../pics/pexel.jpeg') fixed; 
 margin: 0px;
 }
 
