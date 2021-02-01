@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 * {
   box-sizing: border-box
 }
@@ -5,7 +7,8 @@
 
 body{
   font-size: 25px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+
   
 background: url('../pics/pexel.jpeg') fixed; 
 margin: 0px;
@@ -20,6 +23,7 @@ width: 90%;
 margin: 40px auto;
 }
 .box .holes { background-image: url('../pics/holes.jpg');
+
     height: 200px;
     
 }
@@ -29,3 +33,15 @@ margin: 40px auto;
 .box .box-content h2{
     margin: 0px;
 }
+
+.box.box-2 .holes{
+  background-image:url('../pics/forrest.jpg') ;
+  height:150px;}
+  .box.box-2 .box-content h2 {
+    color: red;
+  }
+  
+.box.box-2 .box-content p {
+  font-family: 'Oswald', sans-serif;
+}
+  
