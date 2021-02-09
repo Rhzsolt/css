@@ -18,11 +18,11 @@ margin: 0px;
 color:black;
 background-color: white;
 max-width: 350px;
-
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
 width: 90%;
 margin: 40px auto;
 }
-.box .holes { background-image: url('../pics/holes.jpg');
+.box .holes { background: url('../pics/holes.jpg') top center;
 
     height: 200px;
     
@@ -32,6 +32,17 @@ margin: 40px auto;
 }
 .box .box-content h2{
     margin: 0px;
+}
+.box .box-content .details {
+margin: 16px 0 0 0;
+  }
+.box .box-content .details a{
+  background-color: blue;
+  color: red;
+  padding: 5px 40px;
+  display: inline-block;
+  text-decoration: none;
+ 
 }
 
 .box.box-2 .holes{
